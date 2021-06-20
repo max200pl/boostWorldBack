@@ -13,10 +13,7 @@ express()
 	.set("views", path.join(__dirname, "views"))
 
 	.get("/", (req, res) => res.render("index"))
-	/* pages */
-	.get("/faceit-account", (req, res) => res.render("faceit-account"))
-	.get("/blog-page", (req, res) => res.render("blog-page"))
-	.get("/faceit-page", (req, res) => res.render("faceit-page"))
+
 
 	/* blocks */
 	.get("/advantages", (req, res) => res.render("advantages"))
