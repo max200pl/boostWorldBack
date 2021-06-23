@@ -15,8 +15,18 @@
 
 <body>
      <%- include('./blocks/header.html') %>
-     <%- include('./blocks/features.html') %>
-     <%- include('./blocks/comment-list.html') %>
+
+     <section class="home">
+          <div class="home__intro">
+               <%- include('./blocks/home-header.html') %>
+               <%- include('./blocks/home-service.html') %>
+          </div>
+
+          <%- include('./blocks/features.html') %>
+          <%- include('./blocks/advantages.html') %>
+          <%- include('./blocks/comment-list.html') %>
+          <%- include('./blocks/home-interest.html') %>
+     </section>
      <%- include('./blocks/footer.html') %>
 
      <script script src="./js/main.min.js">
