@@ -15,7 +15,15 @@
 
 <body>
      <%- include('./blocks/header.html') %>
-     <%- include('./blocks/comment-list-small.html') %>
+
+     <div class="container">
+          <div class="checkout__wrapper">
+               <%- include('./blocks/order.html') %>
+               <%- include('./blocks/checkout-form.html') %>
+          </div>
+
+          <%- include('./blocks/comment-list-small.html') %>
+     </div>
      <%- include('./blocks/personal-cabinet-info.html') %>
      <%- include('./blocks/footer.html') %>
 
