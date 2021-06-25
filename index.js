@@ -14,7 +14,11 @@ express()
 
 	/* page */
 	.get("/", (req, res) => res.render("home"))
-	.get("/faceit", (req, res) => res.render("faceit"))
+
+	.get("/csgo-boosting", (req, res) => res.render("csgo-boosting"))
+	.get("/facelt-boosting", (req, res) => res.render("facelt-boosting"))
+	.get("/esea-boosting", (req, res) => res.render("esea-boosting"))
+	.get("/esportal-boosting", (req, res) => res.render("csgo-boosting"))
 	.get("/blog", (req, res) => res.render("blog"))
 	.get("/article", (req, res) => res.render("article"))
 	.get("/faq", (req, res) => res.render("faq"))
