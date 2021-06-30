@@ -34,7 +34,6 @@ express()
 	.get("/success", (req, res) => res.render("success"))
 	.get("/fail", (req, res) => res.render("fail"))
 
-
-	.listen(PORT, () => console.log(`Listening on ${PORT}`));
+	.listen(PORT, () => console.log(`Listening on ${PORT}`))
 
 
